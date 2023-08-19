@@ -1,0 +1,31 @@
+/* src/Home.css */
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items:top;
+    height: 15vh;
+    padding-top: 300px;
+    /* white-space:  50px;; */
+  }
+  
+  .box {
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .box-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .box-link:hover {
+    color:none;
+  }
+  
