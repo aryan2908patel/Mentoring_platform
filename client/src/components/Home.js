@@ -7,20 +7,15 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="box">
-        <Link to="/mentor" className="box-link">
+        <Link to="/Login" className="box-link">
           Login
         </Link>
       </div>
       <div className="box">
-        <Link to="/registration" className="box-link">
-          Registration
+        <Link to="/Register" className="box-link">
+          Register
         </Link>
       </div>
-      <div className="box">
-        <Link to="/NotesPage" className="box-link">
-          Notes
-        </Link>
-        </div>
     </div>
   );
 };
